@@ -30,7 +30,7 @@ function Home() {
       </header>
       <main>
         <h1>Home Page</h1>
-        {movies.length ? movieList : <h2>Loading movies...</h2>}
+        {movies.length ? movieList : <h3>Loading movies...</h3>}
       </main>
     </>
   );
